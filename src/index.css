@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faf2e9 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.card-head-yellow {
+  background-color: #f5be49 !important;
+}
+.card-head-brown {
+  background-color: #ddbc9b !important;
+}
+.card-head-blue {
+  background-color: #99d9d9 !important;
+}
+.card-head-red {
+  background-color: #d66049 !important;
+}
+
+/* アニメーション表示 */
+.fade-in {
+    animation: fadeInCard 0.6s ease-in-out;
+}
+
+@keyframes fadeInCard {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.privacy_policy{
+    font-size: 70%;
+}
+
+.responsive-heading1 {
+  font-size: clamp(0.8rem, 6vw, 3.5rem); /* 画面幅に応じて縮小拡大 */
+  white-space: nowrap;                /* 折り返し防止 */
+  overflow: hidden;                   /* はみ出し部分を隠す */
+  text-overflow: ellipsis;           /* はみ出し部分を「…」に */
+  max-width: 100%;                      /* 親の幅に制限 */
+}
+
+.responsive-heading2 {
+  font-size: clamp(0.8rem, 5vw, 2rem); /* 画面幅に応じて縮小拡大 */
+  white-space: nowrap;                /* 折り返し防止 */
+  overflow: hidden;                   /* はみ出し部分を隠す */
+  text-overflow: ellipsis;           /* はみ出し部分を「…」に */
+  max-width: 100%;                      /* 親の幅に制限 */
+}
+
+.responsive-heading3 {
+  font-size: clamp(0.3rem, 4vw, 1.2rem); /* 画面幅に応じて縮小拡大 */
+  white-space: nowrap;                /* 折り返し防止 */
+  overflow: hidden;                   /* はみ出し部分を隠す */
+  text-overflow: ellipsis;           /* はみ出し部分を「…」に */
+  max-width: 100%;                      /* 親の幅に制限 */
+}
+
+/*
+.bubble-text {
+  background-image: url("/images/fukidashi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;   /* 必要に応じて調整 *
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+*/

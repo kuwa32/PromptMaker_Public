@@ -1,0 +1,2 @@
+npx create-react-app prompt_maker
+npm install bootstrap
